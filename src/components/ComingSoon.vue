@@ -17,16 +17,18 @@
         />
       </div>
       <div class="w3-display-middle w3-center">
-        <Countdown
-          class="w3-text-red w3-hide-small mt-5"
-          deadline="December 10, 2020"
-          style="margin-top: 20em"
-        ></Countdown>
-        <Countdown
-          class="w3-text-red w3-large mt-5 w3-hide-large w3-show-small"
-          deadline="December 10, 2020"
-          style="margin-top: 13em; width: 250px"
-        ></Countdown>
+        <h2
+          style="margin-top: 5em; font-family: poppins-black"
+          class="w3-text-red w3-jumbo w3-hide-small mt-5"
+        >
+          Coming 2021
+        </h2>
+        <h2
+          style="margin-top: 5em; font-family: poppins-black"
+          class="w3-text-red w3-xxlarge w3-hide-large w3-hide-medium mt-5"
+        >
+          Coming 2021
+        </h2>
       </div>
       <div class="w3-display-bottommiddle">
         <div class="w3-container w3-center mb-5" style="margin-bottom: 10em">
@@ -156,7 +158,7 @@
 </template>
 
 <script>
-import Countdown from "vuejs-countdown";
+// import Countdown from "vuejs-countdown";
 import { FingerprintSpinner } from "epic-spinners";
 import axios from "axios";
 export default {
@@ -189,7 +191,7 @@ export default {
       responseMessage: null,
     };
   },
-  components: { Countdown, FingerprintSpinner },
+  components: { FingerprintSpinner },
   name: "ComingSoon",
 };
 </script>
