@@ -6,6 +6,8 @@ const bodyParser = require('body-parser');
 const express = require('express')
 const nodemailer = require("nodemailer");
 const history = require('connect-history-api-fallback');
+const serveStatic = require('serve-static')
+const path = require('path')
 
 // const cors = require('cors');
 
@@ -69,12 +71,12 @@ db.close();
 });
 
 //here we are configuring dist to serve app files
-// app.use('/', serveStatic(path.join(__dirname, '/dist')))
+app.use('/', serveStatic(path.join(__dirname, '/dist')))
 
 // this * route is to serve project on different page routes except root `/`
-// app.get(/.*/, function (req, res) {
-// 	res.sendFile(path.join(__dirname, '/dist/index.html'))
-// })
+app.get(/.*/, function (req, res) {
+	res.sendFile(path.join(__dirname, '/dist/index.html'))
+})
 
 const port = process.env.PORT || 3080
 app.listen(port)
