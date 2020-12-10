@@ -5,12 +5,15 @@ const mongodb = require('mongodb');
 const bodyParser = require('body-parser');
 const express = require('express')
 const nodemailer = require("nodemailer");
+const history = require('connect-history-api-fallback');
+
 // const cors = require('cors');
 
 
 const app = express()
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
+app.use(history());
 
 app.post('/api/subscribe', async (req, res) => {
 
@@ -40,11 +43,11 @@ app.post('/api/subscribe', async (req, res) => {
   // send mail with defined transport object
   let info = await transporter.sendMail({
     from: `"${req.body.name}" ${req.body.email}`, // sender address
-    to: "bar@example.com, baz@example.com", // list of receivers
-    subject: "Hello ✔", // Subject line
+    to: "yusufgshehu@gmail.com, inspireworks01@gmail.com", // list of receivers
+    subject: "Kadverts Launch Subscription ✔", // Subject line
     text: "Hello world?", // plain text body
     html: `<div style="padding:20px">
-    <h1 style="text-align:center;">${req.body.name} has Subscribed👍!!!</h1>
+    <h1 style="text-align:center;">${req.body.email} has Subscribed👍!!!</h1>
     </div>
     `, // html body
   });
