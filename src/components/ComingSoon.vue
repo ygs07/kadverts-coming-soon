@@ -1,6 +1,62 @@
 <template>
-  <div>
-    <div class="w3-display-container" style="background-color: #30b1a7">
+  <div style="background-color: #30b1a7">
+    <div class="w3-container w3-center w3-show-small w3-hide-large w3-hide-medium">
+      <div class="w3-padding-32">
+        <img src="../assets/Scene.svg" alt="banner" width="300" class="w3-image" />
+      </div>
+      <div style="git " class="w3-padding-32 w3-hide-large w3-show-small w3-container">
+        <img
+          src="../assets/coming-soon-svg.svg"
+          alt="banner"
+          style="width: 100%"
+          class="w3-image"
+        />
+        <h2
+          style="font-family: poppins-black"
+          class="w3-text-red w3-xxlarge w3-hide-large w3-hide-medium mt-5"
+        >
+          Coming 2021
+        </h2>
+      </div>
+
+      <div class="w3-container w3-center mb-5" style="margin-bottom: 10em">
+        <section class="mb-4">
+          <a href="https://twitter.com/_InspireWorks_">
+            <img
+              src="../assets/coming-soon/twitter.svg"
+              class="hover-animate"
+              alt="twitter"
+              height="50"
+            />
+          </a>
+
+          <a href="https://www.instagram.com/_inspireworks_/">
+            <img
+              src="../assets/coming-soon/instagram.svg"
+              class="hover-animate"
+              alt="instagram"
+              height="50"
+            />
+          </a>
+
+          <a href="https://www.iworks.icu/">
+            <img
+              src="../assets/Artboard-3.svg"
+              width="50"
+              class="hover-animate w3-grayscale-max"
+          /></a>
+        </section>
+        <br />
+        <a
+          onclick="document.getElementById('id01').style.display='block'"
+          class="w3-btn w3-round-xxlarge w3-black w3-hover-orange w3-margin-top"
+        >
+          Let Me Know When You Launch
+        </a>
+      </div>
+    </div>
+
+    <div class="w3-display-container w3-hide-small">
       <img
         src="../assets/coming-soon-3.png"
         class="w3-hide-small w3-show-large"
@@ -8,24 +64,10 @@
         style="width: 100%; height: 1000px"
       />
 
-      <div style="git " class="w3-hide-large w3-show-small w3-container">
-        <img
-          src="../assets/coming-soon-svg.svg"
-          alt="banner"
-          style="width: 100%; height: 1000px"
-          class="w3-image"
-        />
-      </div>
       <div class="w3-display-middle w3-center">
         <h2
           style="margin-top: 5em; font-family: poppins-black"
           class="w3-text-red w3-jumbo w3-hide-small mt-5"
-        >
-          Coming 2021
-        </h2>
-        <h2
-          style="margin-top: 5em; font-family: poppins-black"
-          class="w3-text-red w3-xxlarge w3-hide-large w3-hide-medium mt-5"
         >
           Coming 2021
         </h2>
