@@ -18,10 +18,13 @@ app.use(history());
 app.post('/api/subscribe', async (req, res) => {
 
   const client = await mongodb.MongoClient.connect(
-    'mongodb://localhost:27017',
+     //turnary operator to see if process.env.MONGO_USER & process.env.MONGO_PASS exist
+     process.env.MONGO_USER && process.env.MONGO_PASS ? 
+     `mongodb+srv://${process.env.MONGO_USER}:${process.env.MONGO_PASS}@cluster0.elcse.mongodb.net/${process.env.MONGO_DBNAME}?retryWrites=true&w=majority`
+     :'mongodb://localhost:27017',
     { useNewUrlParser: true, useUnifiedTopology: true },
   );
-  const db = client.db('kadverts-launch-subscribers');
+  const db = client.db(process.env.MONGODB_NAME || 'kadverts-launch-subscribers');
   const subscribedEmail = await db.collection('emails').findOne({ email :`${req.body.email}`});
   console.log(subscribedEmail);
 
