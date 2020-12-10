@@ -9,7 +9,6 @@ const history = require('connect-history-api-fallback');
 const serveStatic = require('serve-static')
 const path = require('path')
 
-// const cors = require('cors');
 
 
 const app = express()
