@@ -43,7 +43,7 @@
             <img
               src="../assets/Artboard-3.svg"
               width="50"
-              class="hover-animate w3-grayscale-max"
+              class="hover-animate kaduna-based-logo-max"
           /></a>
         </section>
         <br />
@@ -97,7 +97,7 @@
               <img
                 src="../assets/Artboard-3.svg"
                 width="50"
-                class="hover-animate w3-grayscale-max"
+                class="hover-animate kaduna-based-logo-max"
             /></a>
           </section>
           <br />
@@ -111,32 +111,57 @@
       </div>
     </div>
 
-    <div class="w3-container w3-padding-64 w3-center" style="background-color: #ed5f18">
-      <h1 class="w3-center w3-xxxlarge" style="font-family: poppins-black">
-        Advertising...
-      </h1>
+    <div class="w3-container w3-padding-64 w3-center w3-white">
+      <div class="w3-padding-64">
+        <h1 class="w3-center w3-xxxlarge" style="font-family: poppins-black">
+          Advertising...
+        </h1>
+        <h2 class="w3-center w3-margin-top" style="font-family: poppins-regular">
+          Kaduna-Based Businesses
+        </h2>
+      </div>
 
       <div class="w3-container w3-content w3-padding-64">
         <div class="w3-third w3-center">
-          <img src="../assets/iworks.svg" height="100" />
+          <img class="kaduna-based-logo" src="../assets/iworks.svg" height="100" />
           <br />
-          <h2 class="w3-center" style="font-family: poppins-regular">
+          <!--  -->
+        </div>
+        <div class="w3-third">
+          <img class="kaduna-based-logo" src="../assets/Bevel.png" height="100" />
+          <br />
+          <!-- <h2 style="font-family: poppins-regular">
             Kaduna-Based <br />
+            Businesses -->
+          <!-- </h2> -->
+        </div>
+        <div class="w3-third">
+          <img class="kaduna-based-logo" src="../assets/inFinieStudio.png" height="100" />
+          <br />
+          <!-- <h2 style="font-family: poppins-regular">Online Events</h2> -->
+        </div>
+      </div>
+      <div class="w3-container w3-content w3-padding-64">
+        <div class="w3-third w3-center">
+          <img class="kaduna-based-logo" src="../assets/iworks.svg" height="100" />
+          <br />
+          <!-- <h2 class="w3-center" style="font-family: poppins-regular"> -->
+          <!-- Kaduna-Based <br />
             Events
-          </h2>
+          </h2> -->
         </div>
         <div class="w3-third">
-          <img src="../assets/iworks.svg" height="100" />
+          <img class="kaduna-based-logo" src="../assets/Bevel.png" height="100" />
           <br />
-          <h2 style="font-family: poppins-regular">
+          <!-- <h2 style="font-family: poppins-regular">
             Kaduna-Based <br />
-            Businesses
-          </h2>
+            Businesses -->
+          <!-- </h2> -->
         </div>
         <div class="w3-third">
-          <img src="../assets/iworks.svg" height="100" />
+          <img class="kaduna-based-logo" src="../assets/inFinieStudio.png" height="100" />
           <br />
-          <h2 style="font-family: poppins-regular">Online Events</h2>
+          <!-- <h2 style="font-family: poppins-regular">Online Events</h2> -->
         </div>
       </div>
     </div>
@@ -263,5 +288,14 @@ export default {
 }
 .hover-animate:hover {
   box-shadow: 0 0 11px rgb(254, 176, 98);
+}
+
+.kaduna-based-logo {
+  filter: grayscale(100%);
+  transition: all 0.3s ease;
+}
+
+.kaduna-based-logo:hover {
+  filter: grayscale(0%);
 }
 </style>
