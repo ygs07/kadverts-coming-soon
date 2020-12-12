@@ -111,7 +111,7 @@
       </div>
     </div>
 
-    <div class="w3-container w3-padding-64 w3-center w3-white">
+    <div class="w3-container w3-padding-64 w3-center w3-light-gray">
       <div class="w3-padding-64">
         <h1 class="w3-center w3-xxxlarge" style="font-family: poppins-black">
           Advertising...
@@ -121,19 +121,74 @@
         </h2>
       </div>
 
-      <div class="w3-container w3-content w3-padding-64">
-        <div class="w3-third w3-center">
-          <img class="kaduna-based-logo" src="../assets/iworks.svg" height="100" />
+      <!-- hide on larger screens -->
+      <div class="w3-hide-large w3-container">
+        <div class="w3-third w3-center kaduna-based-logo">
+          <img class="w3-margin-bottom" src="../assets/iworks.svg" height="150" />
           <br />
-          <!--  -->
+          <a
+            href="https://www.instagram.com/_inspireworks_/"
+            target="_blank"
+            style="text-decoration: none; color: #e53935"
+            ><i class="fa fa-instagram w3-xlarge"></i>
+          </a>
+          <a
+            href="https://twitter.com/_InspireWorks_"
+            target="_blank"
+            style="text-decoration: none; color: #039be5"
+          >
+            <i class="fa fa-twitter w3-xlarge"></i>
+          </a>
         </div>
-        <div class="w3-third">
-          <img class="kaduna-based-logo" src="../assets/Bevel.png" height="100" />
+        <div class="w3-third w3-padding-32">
+          <img class="w3-margin-bottom" src="../assets/Bevel.png" height="150" />
           <br />
-          <!-- <h2 style="font-family: poppins-regular">
-            Kaduna-Based <br />
-            Businesses -->
-          <!-- </h2> -->
+          <a
+            href="https://www.instagram.com/bevel.__/"
+            target="_blank"
+            style="text-decoration: none; color: #e53935"
+            class="w3-margin-right"
+            ><i class="fa fa-instagram w3-xlarge"></i>
+          </a>
+        </div>
+        <div class="w3-third kaduna-based-logo w3-margin-bottom">
+          <img class="w3-margin-bottom" src="../assets/inFinieStudio.png" height="150" />
+          <br />
+          <a
+            href="https://www.instagram.com/oyeleke_ateeq/"
+            target="_blank"
+            style="text-decoration: none; color: #e53935"
+            ><i class="fa fa-instagram w3-xlarge"></i>
+          </a>
+          <a
+            href="https://twitter.com/oyeleke_ateeq"
+            target="_blank"
+            style="text-decoration: none; color: #039be5"
+          >
+            <i class="fa fa-twitter w3-xlarge"></i>
+          </a>
+        </div>
+
+        <div class="w3-third w3-center kaduna-based-logo w3-margin-top">
+          <img class="w3-margin-bottom" src="../assets/Kalbites.png" height="200" />
+          <br />
+          <a
+            href="https://www.instagram.com/Kal_bites/"
+            target="_blank"
+            style="text-decoration: none; color: #e53935"
+            ><i class="fa fa-instagram w3-xlarge"></i>
+          </a>
+          <br />
+        </div>
+        <div class="w3-third kaduna-based-logo w3-padding-32">
+          <img class="" src="../assets/AlphaEmpire.png" height="200" />
+          <br />
+          <a
+            href="https://www.instagram.com/_alphaempire/"
+            target="_blank"
+            style="text-decoration: none; color: #e53935"
+            ><i class="fa fa-instagram w3-xlarge"></i>
+          </a>
         </div>
         <div class="w3-third">
           <img class="kaduna-based-logo" src="../assets/inFinieStudio.png" height="100" />
@@ -141,37 +196,96 @@
           <!-- <h2 style="font-family: poppins-regular">Online Events</h2> -->
         </div>
       </div>
-      <div class="w3-container w3-content w3-padding-64">
-        <div class="w3-third w3-center">
-          <img class="kaduna-based-logo" src="../assets/iworks.svg" height="100" />
-          <br />
-          <!-- <h2 class="w3-center" style="font-family: poppins-regular"> -->
-          <!-- Kaduna-Based <br />
-            Events
-          </h2> -->
+
+      <!-- hide on smaller screens -->
+      <div class="w3-hide-small">
+        <div class="w3-container w3-content w3-padding-64">
+          <div class="w3-third w3-center kaduna-based-logo">
+            <img class="w3-margin-bottom" src="../assets/iworks.svg" height="150" />
+            <br />
+            <a
+              href="https://www.instagram.com/_inspireworks_/"
+              target="_blank"
+              style="text-decoration: none; color: #e53935"
+              class="w3-margin-right"
+              ><i class="fa fa-instagram w3-xlarge"></i>
+            </a>
+            <a
+              href="https://twitter.com/_InspireWorks_"
+              target="_blank"
+              style="text-decoration: none; color: #039be5"
+            >
+              <i class="fa fa-twitter w3-xlarge"></i>
+            </a>
+          </div>
+          <div class="w3-third kaduna-based-logo">
+            <img class="w3-margin-bottom" src="../assets/Bevel.png" height="150" />
+
+            <br />
+            <a
+              href="https://www.instagram.com/bevel.__/"
+              target="_blank"
+              style="text-decoration: none; color: #e53935"
+              class="w3-margin-right"
+              ><i class="fa fa-instagram w3-xlarge"></i>
+            </a>
+          </div>
+          <div class="w3-third kaduna-based-logo">
+            <img
+              class="w3-margin-bottom"
+              src="../assets/inFinieStudio.png"
+              height="150"
+            />
+            <br />
+            <a
+              href="https://www.instagram.com/oyeleke_ateeq/"
+              target="_blank"
+              style="text-decoration: none; color: #e53935"
+              class="w3-margin-right"
+              ><i class="fa fa-instagram w3-xlarge"></i>
+            </a>
+            <a
+              href="https://twitter.com/oyeleke_ateeq"
+              target="_blank"
+              style="text-decoration: none; color: #039be5"
+            >
+              <i class="fa fa-twitter w3-xlarge"></i>
+            </a>
+          </div>
         </div>
-        <div class="w3-third">
-          <img class="kaduna-based-logo" src="../assets/Bevel.png" height="100" />
-          <br />
-          <!-- <h2 style="font-family: poppins-regular">
-            Kaduna-Based <br />
-            Businesses -->
-          <!-- </h2> -->
-        </div>
-        <div class="w3-third">
-          <img class="kaduna-based-logo" src="../assets/inFinieStudio.png" height="100" />
-          <br />
-          <!-- <h2 style="font-family: poppins-regular">Online Events</h2> -->
+        <div class="w3-container w3-content w3-padding-64">
+          <div class="w3-third w3-center kaduna-based-logo">
+            <img class="w3-margin-bottom" src="../assets/Kalbites.png" height="200" />
+            <br />
+            <a
+              href="https://www.instagram.com/Kal_bites/"
+              target="_blank"
+              style="text-decoration: none; color: #e53935"
+              ><i class="fa fa-instagram w3-xlarge"></i>
+            </a>
+            <br />
+          </div>
+          <div class="w3-third kaduna-based-logo">
+            <img class="w3-margin-bottom" src="../assets/AlphaEmpire.png" height="200" />
+            <br />
+            <a
+              href="https://www.instagram.com/_alphaempire/"
+              target="_blank"
+              style="text-decoration: none; color: #e53935"
+              ><i class="fa fa-instagram w3-xlarge"></i>
+            </a>
+          </div>
+          <div class="w3-third">
+            <img
+              class="kaduna-based-logo"
+              src="../assets/inFinieStudio.png"
+              height="100"
+            />
+            <br />
+            <!-- <h2 style="font-family: poppins-regular">Online Events</h2> -->
+          </div>
         </div>
       </div>
-    </div>
-
-    <div class="w3-container w3-center w3-black w3-padding-64">
-      <h1 class="w3-center w3-xxxlarge" style="font-family: poppins-black">
-        Stay Tuned For The Launch
-      </h1>
-
-      <!-- <h4> Let Me Know When You Launch</h4> -->
     </div>
 
     <div id="id01" class="w3-modal">
@@ -221,6 +335,44 @@
         </div>
       </div>
     </div>
+    <footer class="w3-container w3-padding-32 w3-black w3-center">
+      <div class="w3-container w3-center w3-black w3-padding-64">
+        <h1 class="w3-center w3-xxxlarge" style="font-family: poppins-black">
+          Stay Tuned For The Launch
+        </h1>
+
+        <!-- <h4> Let Me Know When You Launch</h4> -->
+      </div>
+      <div class="w3-xxlarge w3-section">
+        <a
+          href="https://web.facebook.com/pg/InspireWorks-111971270228911/posts/?ref=page_internal"
+          style="text-decoration: none; color: #0d47a1"
+          target="_blank"
+        >
+          <i class="fa fa-facebook-official w3-hover-opacity"></i
+        ></a>
+        <a
+          href="https://www.instagram.com/_inspireworks_/"
+          target="_blank"
+          style="text-decoration: none; color: #e53935"
+          ><i class="fa fa-instagram w3-hover-opacity"></i>
+        </a>
+
+        <a
+          href="https://twitter.com/_InspireWorks_"
+          target="_blank"
+          style="text-decoration: none; color: #039be5"
+        >
+          <i class="fa fa-twitter w3-hover-opacity"></i>
+        </a>
+      </div>
+
+      <a href="https://www.iworks.icu/">
+        <img src="../assets/Artboard-3.svg" width="50" class=""
+      /></a>
+
+      <p class="w3-opacity">&#169; COPYRIGHTS 2020</p>
+    </footer>
   </div>
 </template>
 
