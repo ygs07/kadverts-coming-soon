@@ -192,10 +192,19 @@
             ><i class="fa fa-instagram w3-xlarge"></i>
           </a>
         </div>
-        <div class="w3-third">
-          <img class="kaduna-based-logo" src="../assets/inFinieStudio.png" height="100" />
+        <div class="w3-third kaduna-based-logo">
+          <img
+            class="w3-margin-bottom"
+            src="../assets/BakedIndulgence.png"
+            height="200"
+          />
           <br />
-          <!-- <h2 style="font-family: poppins-regular">Online Events</h2> -->
+          <a
+            href="https://www.instagram.com/_alphaempire/"
+            target="_blank"
+            style="text-decoration: none; color: #e53935"
+            ><i class="fa fa-instagram w3-xlarge"></i>
+          </a>
         </div>
       </div>
 
@@ -277,14 +286,33 @@
               ><i class="fa fa-instagram w3-xlarge"></i>
             </a>
           </div>
-          <div class="w3-third">
+          <div class="w3-third kaduna-based-logo">
             <img
-              class="kaduna-based-logo"
-              src="../assets/inFinieStudio.png"
-              height="100"
+              class="w3-margin-bottom"
+              src="../assets/BakedIndulgence.png"
+              height="200"
             />
             <br />
-            <!-- <h2 style="font-family: poppins-regular">Online Events</h2> -->
+            <a
+              href="https://www.instagram.com/_alphaempire/"
+              target="_blank"
+              style="text-decoration: none; color: #e53935"
+              ><i class="fa fa-instagram w3-xlarge"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="w3-container w3-content w3-padding-64">
+          <div class="w3-third w3-center kaduna-based-logo">
+            <img class="w3-margin-bottom" src="../assets/JUSMA.png" height="200" />
+            <br />
+            <a
+              href="https://www.instagram.com/jusma_wears/"
+              target="_blank"
+              style="text-decoration: none; color: #e53935"
+              ><i class="fa fa-instagram w3-xlarge"></i>
+            </a>
+            <br />
           </div>
         </div>
       </div>
