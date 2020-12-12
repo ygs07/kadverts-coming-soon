@@ -130,6 +130,7 @@
             href="https://www.instagram.com/_inspireworks_/"
             target="_blank"
             style="text-decoration: none; color: #e53935"
+            class="w3-margin-right"
             ><i class="fa fa-instagram w3-xlarge"></i>
           </a>
           <a
@@ -140,7 +141,7 @@
             <i class="fa fa-twitter w3-xlarge"></i>
           </a>
         </div>
-        <div class="w3-third w3-padding-32">
+        <div class="w3-third w3-padding-32 kaduna-based-logo">
           <img class="w3-margin-bottom" src="../assets/Bevel.png" height="150" />
           <br />
           <a
@@ -158,6 +159,7 @@
             href="https://www.instagram.com/oyeleke_ateeq/"
             target="_blank"
             style="text-decoration: none; color: #e53935"
+            class="w3-margin-right"
             ><i class="fa fa-instagram w3-xlarge"></i>
           </a>
           <a
