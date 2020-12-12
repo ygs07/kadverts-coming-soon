@@ -200,10 +200,17 @@
           />
           <br />
           <a
-            href="https://www.instagram.com/_alphaempire/"
+            href="https://www.instagram.com/baked_indulgence_/"
             target="_blank"
             style="text-decoration: none; color: #e53935"
             ><i class="fa fa-instagram w3-xlarge"></i>
+          </a>
+          <a
+            href="https://twitter.com/indulge_cake"
+            target="_blank"
+            style="text-decoration: none; color: #039be5"
+          >
+            <i class="fa fa-twitter w3-xlarge"></i>
           </a>
         </div>
       </div>
@@ -294,10 +301,17 @@
             />
             <br />
             <a
-              href="https://www.instagram.com/_alphaempire/"
+              href="https://www.instagram.com/baked_indulgence_/"
               target="_blank"
               style="text-decoration: none; color: #e53935"
               ><i class="fa fa-instagram w3-xlarge"></i>
+            </a>
+            <a
+              href="https://twitter.com/indulge_cake"
+              target="_blank"
+              style="text-decoration: none; color: #039be5"
+            >
+              <i class="fa fa-twitter w3-xlarge"></i>
             </a>
           </div>
         </div>
