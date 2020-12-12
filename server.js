@@ -4,10 +4,11 @@
 const mongodb = require('mongodb');
 const bodyParser = require('body-parser');
 const express = require('express')
-const nodemailer = require("nodemailer");
+// const nodemailer = require("nodemailer");
 const history = require('connect-history-api-fallback');
 const serveStatic = require('serve-static')
 const path = require('path')
+const mailgun = require('mailgun-js')({apiKey: process.env.MAILGUN_KEY, domain: process.env.DOMAIN});
 
 
 
@@ -17,6 +18,8 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(history());
 
 app.post('/api/subscribe', async (req, res) => {
+
+
 
   const client = await mongodb.MongoClient.connect(
      //turnary operator to see if process.env.MONGO_USER & process.env.MONGO_PASS exist
@@ -34,33 +37,44 @@ app.post('/api/subscribe', async (req, res) => {
 
   res.send({ msg : `Thanks For subscribing ${req.body.name}`});
 
-  let transporter = nodemailer.createTransport({
-    host: "smtp.mailtrap.io",
-    port: 2525,
-    secure: false, // true for 465, false for other ports
-    auth: {
-      user: "550db5422d5d41", // generated ethereal user
-      pass: "4cf2f0493acf14", // generated ethereal password
-    },
+
+  const data = {
+    from: `${req.body.email}`,
+    to: 'yusufgshehu@gmail.com, inspireworks01@gmail.com',
+    subject: 'Hello',
+    text: 'Testing some Mailgun awesomeness!'
+  };
+  
+  mailgun.messages().send(data, (error, body) => {
+    console.log(body);
   });
+  // let transporter = nodemailer.createTransport({
+  //   host: "smtp.mailtrap.io",
+  //   port: 2525,
+  //   secure: false, // true for 465, false for other ports
+  //   auth: {
+  //     user: "550db5422d5d41", // generated ethereal user
+  //     pass: "4cf2f0493acf14", // generated ethereal password
+  //   },
+  // });
 
   // send mail with defined transport object
-  let info = await transporter.sendMail({
-    from: `"${req.body.name}" ${req.body.email}`, // sender address
-    to: "yusufgshehu@gmail.com, inspireworks01@gmail.com", // list of receivers
-    subject: "Kadverts Launch Subscription ✔", // Subject line
-    text: "Hello world?", // plain text body
-    html: `<div style="padding:20px">
-    <h1 style="text-align:center;">${req.body.email} has Subscribed👍!!!</h1>
-    </div>
-    `, // html body
-  });
+  // let info = await transporter.sendMail({
+  //   from: `"${req.body.name}" ${req.body.email}`, // sender address
+  //   to: "yusufgshehu@gmail.com, inspireworks01@gmail.com", // list of receivers
+  //   subject: "Kadverts Launch Subscription ✔", // Subject line
+  //   text: "Hello world?", // plain text body
+  //   html: `<div style="padding:20px">
+  //   <h1 style="text-align:center;">${req.body.email} has Subscribed👍!!!</h1>
+  //   </div>
+  //   `, // html body
+  // });
 
-  console.log("Message sent: %s", info.messageId);
+  // console.log("Message sent: %s", info.messageId);
   // Message sent: <b658f8ca-6296-ccf4-8306-87d57a0b4321@example.com>
 
   // Preview only available when sending through an Ethereal account
-  console.log("Preview URL: %s", nodemailer.getTestMessageUrl(info));
+  // console.log("Preview URL: %s", nodemailer.getTestMessageUrl(info));
 
   } else{
     res.send({ msg : `You've already subscribed ${req.body.name}🧐`});

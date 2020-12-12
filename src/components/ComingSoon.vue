@@ -213,6 +213,18 @@
             <i class="fa fa-twitter w3-xlarge"></i>
           </a>
         </div>
+
+        <div class="w3-third w3-center kaduna-based-logo">
+          <img class="w3-margin-bottom" src="../assets/JUSMA.png" height="200" />
+          <br />
+          <a
+            href="https://www.instagram.com/jusma_wears/"
+            target="_blank"
+            style="text-decoration: none; color: #e53935"
+            ><i class="fa fa-instagram w3-xlarge"></i>
+          </a>
+          <br />
+        </div>
       </div>
 
       <!-- hide on smaller screens -->
@@ -330,6 +342,33 @@
           </div>
         </div>
       </div>
+
+      <div class="w3-padding-64">
+        <h2 class="w3-center" style="font-family: poppins-regular">
+          Kaduna-Based Events
+        </h2>
+      </div>
+
+      <div class="w3-container">
+        <div class="w3-quarter">
+          <h3>Flyer</h3>
+        </div>
+        <div class="w3-quarter">
+          <h3>Flyer</h3>
+        </div>
+        <div class="w3-quarter">
+          <h3>Flyer</h3>
+        </div>
+        <div class="w3-quarter">
+          <h3>Flyer</h3>
+        </div>
+      </div>
+
+      <div class="w3-container w3-padding-64">
+        <h2 class="w3-center" style="font-family: poppins-regular">
+          But That's Just The Beginning.
+        </h2>
+      </div>
     </div>
 
     <div id="id01" class="w3-modal">
@@ -379,36 +418,35 @@
         </div>
       </div>
     </div>
+
     <footer class="w3-container w3-padding-32 w3-black w3-center">
       <div class="w3-container w3-center w3-black w3-padding-64">
         <h1 class="w3-center w3-xxxlarge" style="font-family: poppins-black">
           Stay Tuned For The Launch
         </h1>
+        <div class="w3-xxlarge">
+          <a
+            href="https://web.facebook.com/pg/InspireWorks-111971270228911/posts/?ref=page_internal"
+            style="text-decoration: none; color: #0d47a1"
+            target="_blank"
+          >
+            <i class="fa fa-facebook-official w3-hover-opacity"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/_inspireworks_/"
+            target="_blank"
+            style="text-decoration: none; color: #e53935"
+            ><i class="fa fa-instagram w3-hover-opacity"></i>
+          </a>
 
-        <!-- <h4> Let Me Know When You Launch</h4> -->
-      </div>
-      <div class="w3-xxlarge w3-section">
-        <a
-          href="https://web.facebook.com/pg/InspireWorks-111971270228911/posts/?ref=page_internal"
-          style="text-decoration: none; color: #0d47a1"
-          target="_blank"
-        >
-          <i class="fa fa-facebook-official w3-hover-opacity"></i
-        ></a>
-        <a
-          href="https://www.instagram.com/_inspireworks_/"
-          target="_blank"
-          style="text-decoration: none; color: #e53935"
-          ><i class="fa fa-instagram w3-hover-opacity"></i>
-        </a>
-
-        <a
-          href="https://twitter.com/_InspireWorks_"
-          target="_blank"
-          style="text-decoration: none; color: #039be5"
-        >
-          <i class="fa fa-twitter w3-hover-opacity"></i>
-        </a>
+          <a
+            href="https://twitter.com/_InspireWorks_"
+            target="_blank"
+            style="text-decoration: none; color: #039be5"
+          >
+            <i class="fa fa-twitter w3-hover-opacity"></i>
+          </a>
+        </div>
       </div>
 
       <a href="https://www.iworks.icu/">
