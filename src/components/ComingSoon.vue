@@ -274,8 +274,16 @@
               href="https://twitter.com/_InspireWorks_"
               target="_blank"
               style="text-decoration: none; color: #039be5"
+              class="w3-margin-right"
             >
               <i class="fa fa-twitter w3-xlarge"></i>
+            </a>
+            <a
+              href="https://iworks.icu"
+              target="_blank"
+              style="text-decoration: none; color: #ff9b21"
+            >
+              <i class="fas fa-globe w3-xlarge"></i>
             </a>
           </div>
           <div class="w3-third kaduna-based-logo">
