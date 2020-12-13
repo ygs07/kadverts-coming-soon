@@ -119,6 +119,9 @@
         <h2 class="w3-center w3-margin-top" style="font-family: poppins-regular">
           Kaduna-Based Businesses
         </h2>
+        <h6 class="w3-center w3-margin-top" style="font-family: poppins-regular">
+          No Business Is Too Small.
+        </h6>
       </div>
 
       <!-- hide on larger screens -->
@@ -402,32 +405,41 @@
         </div>
       </div>
 
-      <!-- <div class="w3-padding-64">
+      <div class="w3-padding-64">
         <h2 class="w3-center" style="font-family: poppins-regular">
           Kaduna-Based Events
         </h2>
       </div>
 
       <div class="w3-container">
-        <div class="w3-quarter">
-          <h3>Flyer</h3>
-        </div>
-        <div class="w3-quarter">
-          <h3>Flyer</h3>
-        </div>
-        <div class="w3-quarter">
-          <h3>Flyer</h3>
-        </div>
-        <div class="w3-quarter">
-          <h3>Flyer</h3>
+        <div class="">
+          <div class="w3-half w3-center">
+            <img
+              class="w3-margin-bottom w3-card-4 flyer w3-image"
+              src="../assets/Flyer.png"
+              height="600"
+            />
+          </div>
+
+          <div class="w3-half w3-center">
+            <img
+              class="w3-margin-bottom w3-card-4 flyer w3-image w3-hide-small"
+              src="../assets/YAAN-Flyer-1.png"
+              style="height: 600px"
+            />
+            <img
+              class="w3-margin-bottom w3-card-4 flyer w3-image w3-hide-large"
+              src="../assets/YAAN-Flyer-1.png"
+            />
+          </div>
         </div>
       </div>
 
       <div class="w3-container w3-padding-64">
-        <h2 class="w3-center" style="font-family: poppins-regular">
+        <h1 class="w3-center w3-xxxlarge" style="font-family: poppins-black">
           But That's Just The Beginning.
-        </h2>
-      </div> -->
+        </h1>
+      </div>
     </div>
 
     <div id="id01" class="w3-modal">
@@ -464,7 +476,7 @@
                 <fingerprint-spinner
                   :animation-duration="1000"
                   :size="40"
-                  :color="'#ff1d5e'"
+                  :color="'#FF9B21'"
                 />
               </div>
               <div v-else>
@@ -481,7 +493,8 @@
     <footer class="w3-container w3-padding-32 w3-black w3-center">
       <div class="w3-container w3-center w3-black w3-padding-64">
         <h1 class="w3-center w3-xxxlarge" style="font-family: poppins-black">
-          Stay Tuned For The Launch
+          Stay Tuned For The Launch <br />
+          2021
         </h1>
         <div class="w3-xxlarge">
           <a
@@ -590,5 +603,28 @@ export default {
 
 .kaduna-based-logo:hover {
   filter: grayscale(0%);
+}
+
+.flyer:hover {
+  animation-name: bounce;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+.flyer {
+  animation-name: bounce;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 </style>
