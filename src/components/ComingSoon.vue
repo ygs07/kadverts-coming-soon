@@ -137,8 +137,17 @@
             href="https://twitter.com/_InspireWorks_"
             target="_blank"
             style="text-decoration: none; color: #039be5"
+            class="w3-margin-right"
           >
             <i class="fa fa-twitter w3-xlarge"></i>
+          </a>
+
+          <a
+            href="https://iworks.icu"
+            target="_blank"
+            style="text-decoration: none; color: #ff9b21"
+          >
+            <i class="fas fa-globe w3-xlarge"></i>
           </a>
         </div>
         <div class="w3-third w3-padding-32 kaduna-based-logo">
@@ -202,6 +211,7 @@
           <a
             href="https://www.instagram.com/baked_indulgence_/"
             target="_blank"
+            class="w3-margin-right"
             style="text-decoration: none; color: #e53935"
             ><i class="fa fa-instagram w3-xlarge"></i>
           </a>
@@ -214,14 +224,34 @@
           </a>
         </div>
 
-        <div class="w3-third w3-center kaduna-based-logo">
-          <img class="w3-margin-bottom" src="../assets/JUSMA.png" height="200" />
+        <div class="w3-third w3-center w3-padding-32 kaduna-based-logo">
+          <img class="w3-margin-bottom" src="../assets/JUSMA.png" height="100" />
           <br />
           <a
             href="https://www.instagram.com/jusma_wears/"
             target="_blank"
             style="text-decoration: none; color: #e53935"
             ><i class="fa fa-instagram w3-xlarge"></i>
+          </a>
+          <br />
+        </div>
+
+        <div class="w3-third w3-center kaduna-based-logo">
+          <img class="w3-margin-bottom" src="../assets/Leem'sTreats.png" height="100" />
+          <br />
+          <a
+            href="https://www.instagram.com/Leems_treats/"
+            target="_blank"
+            class="w3-margin-right"
+            style="text-decoration: none; color: #e53935"
+            ><i class="fa fa-instagram w3-xlarge"></i>
+          </a>
+          <a
+            href="https://twitter.com/Leems_treats"
+            target="_blank"
+            style="text-decoration: none; color: #039be5"
+          >
+            <i class="fa fa-twitter w3-xlarge"></i>
           </a>
           <br />
         </div>
@@ -314,6 +344,7 @@
             <br />
             <a
               href="https://www.instagram.com/baked_indulgence_/"
+              class="w3-margin-right"
               target="_blank"
               style="text-decoration: none; color: #e53935"
               ><i class="fa fa-instagram w3-xlarge"></i>
@@ -329,8 +360,8 @@
         </div>
 
         <div class="w3-container w3-content w3-padding-64">
-          <div class="w3-third w3-center kaduna-based-logo">
-            <img class="w3-margin-bottom" src="../assets/JUSMA.png" height="200" />
+          <div class="w3-third kaduna-based-logo">
+            <img class="w3-margin-bottom" src="../assets/JUSMA.png" height="100" />
             <br />
             <a
               href="https://www.instagram.com/jusma_wears/"
@@ -340,10 +371,30 @@
             </a>
             <br />
           </div>
+
+          <div class="w3-third kaduna-based-logo">
+            <img class="w3-margin-bottom" src="../assets/Leem'sTreats.png" height="100" />
+            <br />
+            <a
+              href="https://www.instagram.com/Leems_treats/"
+              target="_blank"
+              class="w3-margin-right"
+              style="text-decoration: none; color: #e53935"
+              ><i class="fa fa-instagram w3-xlarge"></i>
+            </a>
+            <a
+              href="https://twitter.com/Leems_treats"
+              target="_blank"
+              style="text-decoration: none; color: #039be5"
+            >
+              <i class="fa fa-twitter w3-xlarge"></i>
+            </a>
+            <br />
+          </div>
         </div>
       </div>
 
-      <div class="w3-padding-64">
+      <!-- <div class="w3-padding-64">
         <h2 class="w3-center" style="font-family: poppins-regular">
           Kaduna-Based Events
         </h2>
@@ -368,7 +419,7 @@
         <h2 class="w3-center" style="font-family: poppins-regular">
           But That's Just The Beginning.
         </h2>
-      </div>
+      </div> -->
     </div>
 
     <div id="id01" class="w3-modal">
