@@ -15,7 +15,7 @@
           style="font-family: poppins-black"
           class="w3-text-red w3-xxlarge w3-hide-large w3-hide-medium mt-5"
         >
-          Coming 2021
+          Coming Soon
         </h2>
       </div>
 
@@ -69,7 +69,7 @@
           style="margin-top: 5em; font-family: poppins-black"
           class="w3-text-red w3-jumbo w3-hide-small mt-5"
         >
-          Coming 2021
+          Coming Soon
         </h2>
       </div>
       <div class="w3-display-bottommiddle">
